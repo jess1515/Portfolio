@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <!--custom css link-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--custom font link-->
+    <link rel="stylesheet" href="./assets/font/font.css">
+
+    <!--preload images-->
+    <link rel="preload" as="image" href="./assets/images/loading.svg">
+    <link rel="preload" as="image" href="./assets/images/loading-circle.svg">
+
+</head>
+
+<body class="active" id="#top">
+    <!--preloading-->
+
+    <div class="loading" data-loading>
+        <img src="./assets/images/loading.svg" width="55" height="55" alt="loading" class="img">
+        <img src="./assets/images/loading-circle.svg" width="70" height="70" alt=""
+        class="circle">
+    </div>
+
+
+
+    <!--HEADER-->
+    
+    <header class="header" data-header>
+        <div class="container">
+
+            <a href="#" class="logo">
+                <img src="./assets/images/logo.svg" width="40" height="40" alt="Jessica home">
+            </a>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <img src="./assets/images/menu.svg" width="17" height="17" alt="menu icon">
+            </button>
+
+            <nav class="navbar" data-navbar>
+
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <img src="./assets/images/nav-logo.png" width="140" height="40" alt="Jessica home" class="img">
+                    </a>
+
+                    <button class="nav-close-btn" aria-label="close menu"  data-nav-toggler>
+                        <span class="span one"></span>
+                        <span class="span two"></span>
+                    </button>
+                </div>
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="#home" class="navbar-link" data-nav-link>Home</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#about" class="navbar-link" data-nav-link>About</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+                    </li>
+
+                </ul>
+
+
+            </nav>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+        </div>
+    </header>
+    
+
+
+    <main>
+        <article>
+            <!--HERO-->
+
+            <section class="section hero" id="home" aria-label="home">
+                <div class="container">
+
+                    <img src="./assets/images/hero-banner.jpg" width="322" height="322" alt=""
+                    class="hero-banner">
+
+                    <div class="hero-content">
+
+                        <h1 class="hero-title">Jessica Flores</h1>
+
+
+                    </div>
+
+                </div>
+
+                <img src="./assets/images/hero-shape.svg" width="211" height="189" alt=""
+                class="shape">
+                
+            </section>
+
+
+            <!--ABOUT-->
+
+            <section class="section about" id="about" aria-label="about me">
+                <div class="container">
+
+                <div class="about-content">
+                        
+                    <h2 class="h2 selection-title" data-reveal="right">
+                      Hi, I'm <br>
+                      Jessica
+                    </h2>
+                    
+                    <div class="wrapper has-before" data-reveal="right">
+
+                        <p class="section-text">
+                          A
+                          <em class="em">BSIT student in Davao Del Norte State College</em>
+                          who is eager to
+                          <em class="em">learn and grow</em>
+                          in the world of tech.
+                        </p>
+
+                   </div>
+                
+                </div>
+
+                <figure class="about-banner" data-reveal="left">
+
+                    <div class="img-holder has-before" style="--width: 512; --height: 684;">
+                        <img src="./assets/images/about-banner.jpg" width="312" height="484"
+                        loading="lazy" alt="Jessica Flores"
+                        class="img-cover">
+                    </div>
+
+                    <img src="./assets/images/about-shape-1.jpg" width="178" height="178"
+                    loading="lazy" alt=""
+                    class=" shape shape-1">
+
+
+                </figure>
+
+                <img src="./assets/images/about-shape-3.svg" width="100" height="232" 
+                loading="lazy" alt=""
+                 class="shape shape-3">
+
+
+                </div>
+            </section>
+
+
+            <!--PERSONAL INFO-->
+
+            <section class="section service" id="service" aria-labelledby="service-lable">
+                <p class="section-subtitle container" id= "service-lable">Personal Info</p>
+
+                <ul class="service list">
+
+                    <li data-reveal>
+                        <div class="service-card container">
+
+                            <div>
+                                <h3 class="h3 card-title>">Full Name: Jessica Bernal Flores</h3>
+                                <h3 class="h3 card-title>">Birthdate: August 15, 2003</h3>   
+                                <h3 class="h3 card-title>">Address: Barangay Kauswagan, Panabo City</h3>
+                                <h3 class="h3 card-title>">Interests: I love expressing myself through dance and poetry, and I'm deeply captivated by films, particularly those horror psychology ones. </h3>
+                                <h3 class="h3 card-title>">Email: jessicabernalflores028@gmail.com</h3>
+                                <h3 class="h3 card-title>">Mobile Phone: 09489350426</h3>
+                                <h3 class="h3 card-title>">Telegram: Jessie</h3>
+                            </div>
+
+                        </div> 
+                    </li>
+
+
+                </ul>
+
+            </section>
+
+            <!--PORTFOLIO-->
+            
+            <section class="section portfolio" id="portfolio" aria-labelledby="portfolio-label">
+                <div class="container">
+
+                    
+                    <div class="portfolio-list">
+                        
+
+                        <div class="wrapper">
+
+                         <h2 class="section-title" id="portfolio-label" data-reveal>Portfolio</h2>
+                         <h3 class="h3 section-titlee" id="portfolio-label" data-reveal>1st Year</h2>
+
+
+                            
+                         <div class="portfolio-card" data-reveal>
+
+                            <figure class="card-banner img-holder has-before" style="--width: 700; --height: 605;">
+                                <img src="./assets/images/portfolio-1.png" width="300" height="105"
+                                loading="lazy" alt="Registration Form"
+                                class="img-cover">
+                            </figure>
+
+                            <div class="card-content">
+                                <h3 class="h4">
+                                    <a href="#" class="card-title">Registration Form</a>
+                                    <a>This project is a Registration Form activity during my first year,<br> designed to manage user registration details<br>through UI interface.</a>
+                                </h3>
+
+                            </div>
+
+                         </div>
+
+                         <div class="portfolio-card" data-reveal>
+
+                            <figure class="card-banner img-holder has-before" style="--width: 700; --height: 605;">
+                                <img src="./assets/images/portfolio-2.png" width="300" height="105"
+                                loading="lazy" alt="Website"
+                                class="img-cover">
+                            </figure>
+
+                            <div class="card-content">
+                                <h3 class="h4">
+                                    <a href="#" class="card-title">Google Site</a>
+                                    <a>We made this website for our Final Project. This will help you discover your passion<br> through the activities that excites you. It contains resources to explore the things that you love to do.</a>
+                                </h3>
+
+                            </div>
+
+                         </div>
+
+                         <div class="portfolio-card" data-reveal>
+
+                            <figure class="card-banner img-holder has-before" style="--width: 700; --height: 605;">
+                                <img src="./assets/images/portfolio-3.png" width="300" height="105"
+                                loading="lazy" alt="CRUD"
+                                class="img-cover">
+                            </figure>
+
+                            <div class="card-content">
+                                <h3 class="h4">
+                                    <a href="#" class="card-title">PDIC CRUD Project</a>
+                                    <a>After we clone the entire PDIC website, I created and added a CRUD <br> that allows users to create, read, update, and delete record efficiently. </a>
+                                </h3>
+
+                            </div>
+
+                         </div>
+
+                         <div class="portfolio-card" data-reveal>
+
+                            <figure class="card-banner img-holder has-before" style="--width: 700; --height: 605;">
+                                <img src="./assets/images/portfolio-5.jpg" width="300" height="105"
+                                loading="lazy" alt="Film"
+                                class="img-cover">
+                            </figure>
+
+                            <div class="card-content">
+                                <h3 class="h4">
+                                    <a href="#" class="card-title">Horror Film: The Rent</a>
+                                    <a>This film focuses on the students that rented a secluded house to film a horror movie<br> experience weird happenings. Unaware that they are getting closer to a real-life horror<br>connected to the house's troubled past.</a>
+                                </h3>
+
+                            </div>
+
+                         </div>
+
+                         <div class="portfolio-card" data-reveal>
+
+                            <figure class="card-banner img-holder has-before" style="--width: 700; --height: 605;">
+                                <img src="./assets/images/portfolio-6.png" width="500" height="105"
+                                loading="lazy" alt="Drama Film"
+                                class="img-cover">
+                            </figure>
+
+                            <div class="card-content">
+                                <h3 class="h4">
+                                    <a href="#" class="card-title">Short Film: Pagpangita'g Kolor sa Linear Programming</a>
+                                    <a>As the film's writer, I created a concept to show how linear programming<br> correlates to one's personal and romantic life challenges.</a>
+                                </h3>
+
+                            </div>
+
+                         </div>
+
+                         <h2 class="h2 section-titlee" id="portfolio-label" data-reveal> 2nd Year</h2>
+                         <div class="portfolio-card" data-reveal>
+
+                            <figure class="card-banner img-holder has-before" style="--width: 700; --height: 605;">
+                                <img src="./assets/images/portfolio-7.png" width="300" height="105"
+                                loading="lazy" alt="Lab activity"
+                                class="img-cover">
+                            </figure>
+
+                            <div class="card-content">
+                                <h3 class="h4">
+                                    <a href="#" class="card-title">Factorial JS Lab Activity</a>
+                                    <a>This JavaScript Lab Activity that I created calculate<br>factorials, to help users with hand-on experience with loops and functions.</a>
+                                </h3>
+
+                            </div>
+
+                         </div>
+
+                         <div class="portfolio-card" data-reveal>
+
+                            <figure class="card-banner img-holder has-before" style="--width: 700; --height: 605;">
+                                <img src="./assets/images/portfolio-8.png" width="300" height="105"
+                                loading="lazy" alt="Leaflet"
+                                class="img-cover">
+                            </figure>
+
+                            <div class="card-content">
+                                <h3 class="h4">
+                                    <a href="#" class="card-title">Space Act Leaflet</a>
+                                    <a>In order to give clear information on ensuring safe and inclusive spaces, <br>I created a leaflet about the Safe Space Act. It covers the act's salient features and provides<br> advice on how to respect and support everyone in an array of contexts.</a>
+                                </h3>
+
+                            </div>
+
+                         </div>
+
+                         <div class="portfolio-card" data-reveal>
+
+                            <figure class="card-banner img-holder has-before" style="--width: 700; --height: 605;">
+                                <img src="./assets/images/portfolio-9.png" width="500" height="105"
+                                loading="lazy" alt="Vawc Film"
+                                class="img-cover">
+                            </figure>
+
+                            <div class="card-content">
+                                <h3 class="h4">
+                                    <a href="#" class="card-title">Short Film: VAWC</a>
+                                    <a>This film focused on Violence Against Women and Children (VAWC).<br>It seeks to bring awareness to the problems, portray engaging stories,<br> and encourage action against this kind of violence.</a>
+                                </h3>
+
+                            </div>
+
+                         </div>
+
+                         <div class="portfolio-card" data-reveal>
+
+                            <figure class="card-banner img-holder has-before" style="--width: 700; --height: 605;">
+                                <img src="./assets/images/portfolio-10.png" width="500" height="105"
+                                loading="lazy" alt="Database"
+                                class="img-cover">
+                            </figure>
+
+                            <div class="card-content">
+                                <h3 class="h4">
+                                    <a href="#" class="card-title">Student Information Database</a>
+                                    <a>To properly organize and arrange student records, We created a database of student information.<br> Grades, personal information, and other important data may be easily managed, updated,<br>and accessed with this system.
+                                    </a>
+                                </h3>
+
+                            </div>
+
+                         </div>
+
+
+                        </div>
+
+                    </div>
+
+                    <img src="./assets/images/portfolio-shape.svg" width="286" height="232" 
+                    loading="lazy" alt=""
+                    class="shape">
+
+                </div>
+            </section>
+
+
+        </article>
+    </main>
+
+            <!--FOOTER-->
+
+    <footer class="footer">
+        <div class="footer-top section" id="contact">
+          <div class="container">
+            <p class="section-subtitle" data-reveal>Contact</p>
+            <h2 class="h2-section-title" data-reveal>Get in Touch</h2>
+            <a href="#" class="btn-icon" data-reveal>
+              <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon">
+            </a>
+            <img src="./assets/images/footer 1.jpg" width="159" height="176" loading="lazy" alt="image" class="abs-img abs-img-1" data-reveal>
+            <img src="./assets/images/footer 2.jpg" width="265" height="275" loading="lazy" alt="image" class="abs-img abs-img-2" data-reveal>
+            <img src="./assets/images/footer 3.jpg" width="303" height="272" loading="lazy" alt="image" class="abs-img abs-img-3" data-reveal>
+            <img src="./assets/images/footer 4.jpg" width="175" height="175" loading="lazy" alt="image" class="abs-img abs-img-4" data-reveal>
+            <img src="./assets/images/footer-shape.svg" width="185" height="134" loading="lazy" alt="footer shape" class="shape">
+          </div>
+        </div>
+        
+      
+
+        <div class="footer-bottom">
+            <div class="container">
+
+                <ul class="social-link">
+
+                    <li>
+                        <a href="https://www.facebook.com/jollyhotdog201" class="social-link">Fa.</a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.instagram.com/_iscahxx/" class="social-link">Insta.</a>
+                    </li>
+
+                    <li>
+                        <a href="https://x.com/jessiiiee00" class="social-link">X.</a>
+                    </li>
+                </ul>
+
+
+                <div class="copyright-container">
+                    <p class="copyright">Davao Del Norte State College</p>
+                  </div>
+                  
+            </div>
+        </div>
+
+        <div class="footer-bg has-before">
+            <img src="./assets/images/footer bg.jpg" width="1350" height="100" loading="lazy"
+            alt="photography"
+            class="img-cover">
+        </div>
+        
+    </footer>
+
+
+            <!--BACK TO TOP-->
+
+    <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>0%</a>
+
+
+            <!--CURSOR-->
+
+    <div class="cursor" data-cursor></div>
+
+
+    <!--custom js link-->
+    <script src="./assets/js/script.js"></script>
+    
+</body>
+
+</html>
